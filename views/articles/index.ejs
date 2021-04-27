@@ -83,12 +83,12 @@
                 </div>
 
                 <div class="text-truncate">
-                    &nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-calendar-week"></i>
-                    Date: <%= article.createdAt.toLocaleDateString() %>
+                    &nbsp;&nbsp;&nbsp;<i class="fas fa-calendar-week"></i>
+                    &nbsp;Date: <%= article.createdAt.toLocaleDateString() %>
                 </div>
                 <br>
-                <div class="card-text mb-2 text-white">
-                    &nbsp;&nbsp; &nbsp;&nbsp;<%= article.description %>
+                <div class="container md-4 card-text mb-2 text-white">
+                    <%= article.description %>
                 </div>
                 <br>
             </div>
